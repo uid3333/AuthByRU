@@ -38,6 +38,7 @@ public class AuthmeCaptcha extends JavaPlugin {
     	}
     	if(pm.getPlugin("nLogin") == null && (pm.getPlugin("AuthMe") == null)) {
     		plugin = Plugin.NAO_ENCONTRADO;
+            pm.disablePlugin(this);
     	}
     }
     private void setupEvents() {
