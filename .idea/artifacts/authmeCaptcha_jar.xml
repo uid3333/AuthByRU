@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="authmeCaptcha:jar">
+    <output-path>$USER_HOME$/Documents/Minecraft/Desenvolvimento/Servidor Teste/plugins</output-path>
+    <root id="archive" name="authmeCaptcha.jar">
+      <element id="module-output" name="authmeCaptcha" />
+    </root>
+  </artifact>
+</component>

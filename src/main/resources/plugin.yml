@@ -1,0 +1,6 @@
+name: AuthmeCaptcha
+version: 1.0
+author: Gcunha
+main: com.gcunha.authmeCaptcha.AuthmeCaptcha
+commands:
+  color:
