@@ -2,7 +2,7 @@ package com.gcunha.authmeCaptcha;
 
 
 public enum Color {
-    ROSA("&d&lROSA"), AZUL("&9&lAZUL"), VERDE("&a&lVERDE"), VERMELHO("&c&lVERMELHO");
+    ROSA("&d&l\u0426\u0432\u0435\u0442"), AZUL("&9&l\u0426\u0432\u0435\u0442"), VERDE("&a&l\u0426\u0432\u0435\u0442"), VERMELHO("&c&l\u0426\u0432\u0435\u0442");
 
 
     private final String text;
