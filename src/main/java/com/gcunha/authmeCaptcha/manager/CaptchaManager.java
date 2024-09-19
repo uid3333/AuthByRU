@@ -47,7 +47,7 @@ public class CaptchaManager {
     }
     private TextComponent getColorTextComponent(Color color){
         TextComponent msg = new TextComponent(ChatColor.translateAlternateColorCodes('&', color.getText()));
-        msg.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder("§7Clique para selecionar!").create()));
+        msg.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder("§7Выбирать кликом!").create()));
         msg.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/color " + color.getText().substring(4)));
         return msg;
     }
@@ -63,7 +63,7 @@ public class CaptchaManager {
         player.sendMessage(" ");
         player.sendMessage(" ");
 
-        String textAsk = "&6Para poder jogar, faça o teste, clique na cor %cor%";
+        String textAsk = "&6Пожалуйста, пройдите проверку! Жмите на этот %cor%";
         textAsk = textAsk.replace("%cor%",color.getText());
 
         player.sendMessage(ChatColor.translateAlternateColorCodes('&',textAsk));
